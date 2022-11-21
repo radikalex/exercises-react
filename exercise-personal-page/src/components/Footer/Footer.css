@@ -5,11 +5,23 @@
   
 footer {
     margin-top: 4%;
+    position: fixed;
     bottom: 0;
     height: 40px;
-    background-color: #b7adadb7;
+    width: 100%;
+    background-color: #b7adad;
     display: flex;
     align-items: center;
     justify-content: space-around;
     color: white;
+}
+
+@media (max-width: 480px) {
+    .copyright {
+        font-size: 12px;
+    }
+    .contenedor-copyright {
+        display: flex;
+        flex-direction: column;
+    }
 }
