@@ -1,0 +1,15 @@
+.copyright {
+    font-size: 14px;
+    text-align: center;
+}
+  
+footer {
+    margin-top: 4%;
+    bottom: 0;
+    height: 40px;
+    background-color: #b7adadb7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}

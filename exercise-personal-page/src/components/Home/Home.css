@@ -1,0 +1,17 @@
+.home {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.home-container {
+    width: 70%;
+    min-height: 76vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
